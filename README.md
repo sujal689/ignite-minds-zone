@@ -4,6 +4,14 @@
 
 **URL**: https://lovable.dev/projects/63cf363b-4995-46ee-a342-c00129484fe2
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dbf3ac75-9d83-4430-a3ea-85ddc25cb8e1" />
+<img width="1898" height="968" alt="image" src="https://github.com/user-attachments/assets/079139e4-30a1-47aa-9c2e-28424987186b" />
+<img width="1901" height="805" alt="image" src="https://github.com/user-attachments/assets/cec1e6d6-95b3-40f9-bde5-ad10bb24de9d" />
+<img width="1901" height="904" alt="image" src="https://github.com/user-attachments/assets/26617903-84d6-47d8-8f37-75ddd4304368" />
+
+
+
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
