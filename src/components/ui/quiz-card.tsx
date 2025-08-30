@@ -69,7 +69,11 @@ export const QuizCard = ({
             <Trophy className="w-4 h-4" />
             <span className="font-semibold text-sm">{points} points</span>
           </div>
-          <Button className="success-button" size="sm">
+          <Button 
+            className="success-button" 
+            size="sm"
+            onClick={onClick}
+          >
             Start Quiz
           </Button>
         </div>

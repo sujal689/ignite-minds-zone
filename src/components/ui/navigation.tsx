@@ -47,10 +47,18 @@ export const Navigation = () => {
 
           {/* Auth Buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            <Button variant="outline" size="sm">
+            <Button 
+              variant="outline" 
+              size="sm"
+              onClick={() => alert("Please connect Supabase integration for authentication. Click the green Supabase button in the top right!")}
+            >
               Login
             </Button>
-            <Button className="hero-button" size="sm">
+            <Button 
+              className="hero-button" 
+              size="sm"
+              onClick={() => alert("Please connect Supabase integration for authentication. Click the green Supabase button in the top right!")}
+            >
               Sign Up
             </Button>
           </div>
@@ -84,10 +92,19 @@ export const Navigation = () => {
                 </Link>
               ))}
               <div className="pt-4 space-y-2">
-                <Button variant="outline" className="w-full" size="sm">
+                <Button 
+                  variant="outline" 
+                  className="w-full" 
+                  size="sm"
+                  onClick={() => alert("Please connect Supabase integration for authentication. Click the green Supabase button in the top right!")}
+                >
                   Login
                 </Button>
-                <Button className="hero-button w-full" size="sm">
+                <Button 
+                  className="hero-button w-full" 
+                  size="sm"
+                  onClick={() => alert("Please connect Supabase integration for authentication. Click the green Supabase button in the top right!")}
+                >
                   Sign Up
                 </Button>
               </div>

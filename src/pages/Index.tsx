@@ -30,11 +30,18 @@ const Index = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="hero-button text-lg px-8 py-4">
+                <Button 
+                  className="hero-button text-lg px-8 py-4"
+                  onClick={() => window.location.href = '/quizzes'}
+                >
                   Start Learning Now
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
-                <Button variant="outline" className="text-lg px-8 py-4 bg-white/10 border-white/20 text-white hover:bg-white/20">
+                <Button 
+                  variant="outline" 
+                  className="text-lg px-8 py-4 bg-white/10 border-white/20 text-white hover:bg-white/20"
+                  onClick={() => window.location.href = '/leaderboard'}
+                >
                   View Leaderboard
                 </Button>
               </div>
@@ -143,7 +150,10 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <Button className="hero-button text-lg px-8 py-4">
+            <Button 
+              className="hero-button text-lg px-8 py-4"
+              onClick={() => window.location.href = '/quizzes'}
+            >
               View All Quizzes
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
@@ -161,10 +171,17 @@ const Index = () => {
             Join thousands of students who are already improving their grades and having fun while learning.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="hero-button text-lg px-8 py-4">
+            <Button 
+              className="hero-button text-lg px-8 py-4"
+              onClick={() => alert("Please connect Supabase integration for authentication. Click the green Supabase button in the top right!")}
+            >
               Create Free Account
             </Button>
-            <Button variant="outline" className="text-lg px-8 py-4 bg-white/10 border-white/20 text-white hover:bg-white/20">
+            <Button 
+              variant="outline" 
+              className="text-lg px-8 py-4 bg-white/10 border-white/20 text-white hover:bg-white/20"
+              onClick={() => window.location.href = '/quizzes'}
+            >
               Try Sample Quiz
             </Button>
           </div>

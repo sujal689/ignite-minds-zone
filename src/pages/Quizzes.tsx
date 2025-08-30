@@ -87,8 +87,8 @@ const Quizzes = () => {
                 points={quiz.points}
                 icon={IconComponent && <IconComponent className="w-6 h-6" />}
                 onClick={() => {
-                  // For now, we'll show an alert. This would navigate to the quiz page in a real app
-                  alert(`Starting quiz: ${quiz.title}`);
+                  // Navigate to quiz interface
+                  window.location.href = '/quiz';
                 }}
               />
             );

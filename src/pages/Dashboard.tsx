@@ -131,7 +131,10 @@ const Dashboard = () => {
                   <div className="progress-fill h-full" style={{ width: '0%' }}></div>
                 </div>
                 <p className="text-sm text-muted-foreground">0 of 1 completed</p>
-                <Button className="success-button w-full">
+                <Button 
+                  className="success-button w-full"
+                  onClick={() => window.location.href = '/quizzes'}
+                >
                   Start Today's Quiz
                 </Button>
               </div>
