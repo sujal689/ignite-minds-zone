@@ -10,7 +10,7 @@
 <img width="1901" height="904" alt="image" src="https://github.com/user-attachments/assets/26617903-84d6-47d8-8f37-75ddd4304368" />
 
 
-
+## Project Live Link - https://preview--ignite-minds-zone.lovable.app/
 
 ## How can I edit this code?
 
